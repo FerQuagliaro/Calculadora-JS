@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href="style.css">
+
+    <title>Calculadora JS</title>
+
+    </head>
+    <body>
+      <div class = "calculator">
+         <div class = "display"><p>0</p></div>
+         <div class = "buttons">
+
+             <button id = "AC" onclick="allClear()">AC</button>
+             <button id = "plus_minus"onclick="plusMinus('-')">+/-</button>
+             <button id = "percent" onclick="percent()">%</button>
+             <button class="operator" onclick="addOperation('/')">&div</button>
+
+             <button class = "digit" onclick="addValue('7')">7</button>
+             <button class = "digit" onclick="addValue('8')">8</button>
+             <button class = "digit" onclick="addValue('9')">9</button>
+             <button class="operator" onclick="addOperation('*')">x</button>
+
+             <button class = "digit" onclick="addValue('4')">4</button>
+             <button class = "digit" onclick="addValue('5')">5</button>
+             <button class = "digit" onclick="addValue('6')">6</button>
+             <button class="operator" onclick="addOperation('-')">-</button>
+
+             <button class = "digit" onclick="addValue('1')">1</button>
+             <button class = "digit" onclick="addValue('2')">2</button>
+             <button class = "digit" onclick="addValue('3')">3</button>
+             <button class="operator" onclick="addOperation('+')">+</button>
+
+             <button class = "digit" id="zero" onclick="addValue('0')">0</button>
+             <button class = "digit" onclick="addDecimal('.')">.</button>
+             <button class="operator" onclick="calculate()">=</button>
+
+
+
+         </div>
+         </div>
+    </body>
+     <script src = "Untitled-1.js">
+     </script>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
